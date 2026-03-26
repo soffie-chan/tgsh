@@ -6,7 +6,9 @@ html{
     font-family: pixelfont;
     background-color: rgb(98, 216, 255);
 }
-
+u{
+    text-decoration-thickness: 2.5px;
+}
 #intro{
     display: flex;
     justify-content: center;
@@ -19,6 +21,11 @@ html{
     font-size: 30px;
     font-family: pixelfont;
     border-radius: 49px;
+    border-width: 12px;
+    border-color: floralwhite;
+    color: floralwhite;
+    background-color: darkmagenta;
+    margin: 49px;
 }
 
 h1{
@@ -28,16 +35,43 @@ h1{
     font-family: pixelfont;
     color: floralwhite;
     text-shadow: 4px 4px 0px #010000, 2px 3px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
-    margin: 1vh;
+    margin: .2vh;
 }
 
 #dialogue1{
     display: none;
     width: 122vh;
+    gap: 3vh;
+        justify-content: center;
+
+}
+#yoelsb{
+    display: none;
+    width: 639px;
     height: auto;
     background-color: floralwhite;
     border: 4px solid #010000;
+    margin-bottom: 19px;
+    border-radius: 49px;
 }
+
+#overview{
+    display: none;
+    width: 122vh;
+    height: auto;
+}
+.textcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+.textcontainertext{
+    font-size: 19px;
+    width: 1921px;
+}
+
+
 #majordata{
     padding:35px;
     display: none;
@@ -51,6 +85,12 @@ h2{
     flex-direction: column;
     color: floralwhite;
     background-color: #f43aa9;
+    margin-bottom: 35px;
+    margin-top: 55px;
+}
+h3{
+    font-size: 23px;
+    width: 1588px;
 }
 
 body{
@@ -66,6 +106,7 @@ body{
     color: floralwhite;
     text-shadow: 4px 4px 0px #010000, 2px 3px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
     font-size: 39px;
+    margin: 19px;
 }
 .majortitle:hover
 {
@@ -95,4 +136,24 @@ body{
 
 a{
     color: rgb(134, 6, 193);
+}
+
+#levelintro{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.levelbuttons{
+    background-color: darkmagenta;
+    font-family: pixelfont;
+    color: floralwhite;
+    border-radius: 49px;
+    padding:9px;
+    border-color: #010000;
+    border-width: 4px;
+    font-size: 30px;
+    margin: 11px;
 }

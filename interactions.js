@@ -1,11 +1,18 @@
 "use strict";
 const startbutton = document.getElementById("press_start");
-const overview = document.getElementById("dialogue1");
+const dialogue1 = document.getElementById("dialogue1");
+const yoelsb = document.getElementById("yoelsb");
+const overview = document.getElementById("overview");
 const majordata = document.getElementById("majordata");
+const levelintro = document.getElementById("levelintro");
+
 startbutton.addEventListener("click", () => {
     overview.style.display = "block";
     startbutton.style.display = "none"
     majordata.style.display = "block"
+    dialogue1.style.display = "flex"
+    yoelsb.style.display = "block"
+    levelintro.style.display = "flex"
 });
 
 
