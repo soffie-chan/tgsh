@@ -1,0 +1,35 @@
+@font-face{
+    font-family: pixelfont;
+    src: url(pixel_font.ttf);
+}
+html{
+    font-family: pixelfont;
+    background-color: rgb(98, 216, 255);
+}
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#press_start{
+    padding:35px;
+    font-size: 30px;
+    font-family: pixelfont;
+}
+
+h1{
+    font-size: 7vh;
+    display:flex;
+    justify-content: center;
+    font-family: pixelfont;
+    color: floralwhite;
+    text-shadow: 4px 4px 0px #010000, 2px 3px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
+    margin: 1vh;
+}
+
+#level1{
+    display: none;
+}
