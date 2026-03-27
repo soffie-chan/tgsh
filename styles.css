@@ -17,19 +17,19 @@ u{
 }
 
 #press_start{
-    padding:35px;
-    font-size: 30px;
+    padding:25px;
+    font-size: 29px;
     font-family: pixelfont;
     border-radius: 49px;
-    border-width: 12px;
+    border-width: 9px;
     border-color: floralwhite;
     color: floralwhite;
     background-color: darkmagenta;
-    margin: 49px;
+    margin: 39px;
 }
 
 h1{
-    font-size: 7vh;
+    font-size: 9.5vh;
     display:flex;
     justify-content: center;
     font-family: pixelfont;
@@ -42,8 +42,7 @@ h1{
     display: none;
     width: 122vh;
     gap: 3vh;
-        justify-content: center;
-
+    justify-content: center;
 }
 #yoelsb{
     display: none;
@@ -68,7 +67,7 @@ h1{
 }
 .textcontainertext{
     font-size: 19px;
-    width: 1921px;
+    width: 1321px;
 }
 
 
@@ -89,8 +88,8 @@ h2{
     margin-top: 55px;
 }
 h3{
-    font-size: 23px;
-    width: 1588px;
+    font-size: 17px;
+    width: 1388px;
 }
 
 body{
@@ -154,6 +153,6 @@ a{
     padding:9px;
     border-color: #010000;
     border-width: 4px;
-    font-size: 30px;
+    font-size: 20px;
     margin: 11px;
 }

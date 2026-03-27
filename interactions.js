@@ -46,3 +46,10 @@ m3button.addEventListener("click", () => {
         m3data.style.display = "block";
     }
 });
+
+
+const level1button = document.getElementById("level1");
+level1button.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.href = "levelsHTML/level1.html"
+})
